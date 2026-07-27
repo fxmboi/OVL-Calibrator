@@ -29,7 +29,7 @@ Because this software carries a strict non-derivative legal security framework, 
 
 1. Navigate to the [**Releases**](https://github.com/fxmboi/OVL-Calibrator/releases/tag/v1.0) module on the right side of this homepage.
 2. Download the compressed file container bundle: `OVL_v1.0.zip`.
-3. Extract the contents directly onto your local Windows 11 Desktop workspace.
+3. Extract the contents directly onto your Desktop workspace.
 4. Turn on your physical VR base stations and wake up **SteamVR**.
 5. Launch `ovl_calibrator.exe` and begin aligning!
 
