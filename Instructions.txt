@@ -1,0 +1,65 @@
+================================================================================
+  📡 OVL CALIBRATOR - Vive/Index Base Station 2D Alignment Utility (v1.0)
+================================================================================
+
+Welcome to the Overlay Visual Link (OVL) Calibrator! This tool connects directly 
+to SteamVR tracking data and flattens your room space into a technical 2D map, 
+helping you find the exact tracking angles and remove controller blind spots.
+
+--------------------------------------------------------------------------------
+🚀 QUICK START GUIDE
+--------------------------------------------------------------------------------
+1. Turn on your HTC Vive or Valve Index physical base stations.
+2. Launch SteamVR on your computer and ensure your hardware is fully green/awake.
+3. Double-click 'ovl_calibrator.exe'. 
+4. The tool will instantly sync to your tracking space coordinates and render
+   your room architecture layout dynamically.
+
+*NOTE: If SteamVR is closed or your hardware is sleeping, the application will
+ display a vibrant orange "WAITING FOR STEAMVR..." banner and clear the map grid.
+ Once your devices wake up, the map updates automatically!
+
+--------------------------------------------------------------------------------
+📐 DIAGNOSTIC METRICS: HOW TO READ THE DASHBOARD
+--------------------------------------------------------------------------------
+• THE BLUEPRINT FLOOR GRID: 
+  Each grid block represents exactly 1 SQUARE METER in real life. Use this to
+  visually gauge the size and dimensions of your active VR tracking space.
+
+• ACTIVE BASE STATIONS:
+  Station B is ALWAYS assigned to the device furthest to your left.
+  Station C is ALWAYS assigned to the device furthest to your right.
+
+• DISTANCE BETWEEN UNITS:
+  Measures the direct physical line-of-sight tracking footprint between the 
+  two base stations in meters. (Max recommended: 5m for v1.0, 7m for v2.0).
+
+• SIGHTLINE DEVIATION:
+  This is your error margin. It tracks how far left or right a base station 
+  is swiveled away from looking dead-center at the opposite device.
+  - 0.0° Deviation means it is pointing perfectly at the opposite unit.
+  - Try to adjust your physical swivels to get these numbers as low as possible.
+
+• WALL ANGLES:
+  Displays the intuitive, clean inward angle (from 0° to 90°) of your base 
+  station's hardware lens relative to your physical corner walls.
+
+--------------------------------------------------------------------------------
+🎯 TARGET CALIBRATION FOOTPRINT
+--------------------------------------------------------------------------------
+- Each base station projects a translucent wedge and a thin center laser sight.
+- Physically swivel your base stations left or right until the laser sight lines 
+  intersect directly into the center of the opposite green tracker box icon.
+- When your alignment hits the optimal 60-degree overlapping cone limit, the 
+  status alert banner transforms to a solid green "ALIGNMENT OK"!
+
+--------------------------------------------------------------------------------
+🔒 SAFETY & POWER AUTO-CLOSE
+--------------------------------------------------------------------------------
+You don't need to manually close this app when you are done. The software features 
+live power cycle hooks. The moment you turn off your VR hardware or close out 
+SteamVR, the tool will automatically terminate and shut down cleanly on its own.
+
+================================================================================
+Developed using OpenVR and Pygame. Distributed via self-contained executable.
+================================================================================

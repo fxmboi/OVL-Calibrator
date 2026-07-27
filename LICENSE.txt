@@ -1,0 +1,12 @@
+Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International (CC BY-NC-ND 4.0)
+
+By downloading or utilizing the OVL Calibrator executable or associated software components, 
+you agree to the following legal terms:
+
+1. YOU CAN: Share, copy, and redistribute the material in any medium or format. 
+2. ATTRIBUTION: You must give appropriate credit and provide a link to the original author.
+3. NON-COMMERCIAL: You may not use the material for commercial business profits or financial gain.
+4. NO DERIVATIVES: If you remix, transform, or build upon the material, you may NOT distribute 
+   the modified material. You are explicitly forbidden from modifying or altering the software code scripts.
+
+Full legal deed code available at: https://creativecommons.org
