@@ -1,17 +1,21 @@
-#  OVL Calibrator (v1.1)
+#  OVL Calibrator
 ### SteamVR Base Station 2D Alignment & Blueprint Mapping Utility
 
 **OVL Calibrator** (Overlay Visual Link) is a lightweight, standalone 2D diagnostic utility built to help VR users perfectly align their HTC Vive or Valve Index Lighthouse base stations. By flattening your 3D room coordinates into an intuitive 2D bird's-eye blueprint grid, you can eliminate controller tracking blind spots with absolute geometric precision.
 
 ---
 
-##  Features
-* **Live 2D Sightline Vector Map:** Visualizes your physical hardware nodes and tracking cones in real time.
-* **Dual Laser Sight Projection:** Casts independent, locked laser lines out of each sensor face so you can see exactly where your lenses are aiming.
-* **1-Meter Blueprint Floor Grid:** Includes a stylized dark-blue grid where every block equals exactly **1 square meter** in reality to easily gauge your room boundaries.
-* **Intuitive Wall Angles:** Strips away confusing compass numbers and shows a clean double-digit angle (0° to 90°) relative to your physical corner walls.
-* **Automatic Lifecycle Handlers:** Automatically stands by with a caution banner if SteamVR is offline, and automatically shuts down cleanly the moment you close SteamVR.
-* **Self-Contained Executive:** Zero python runtimes, command lines, or dependencies required for end-users. Just click and calibrate.
+## Features
+
+| Main Tracking Map Features | Dynamic Scanning Features (v1.2) |
+| :--- | :--- |
+| Live 2D sightline vector map | Infinite multi-point room scanner |
+| Dual laser sight projection | Two-point 3D elevation scan |
+| Dark greyish-black mode sheet canvas | Live headset and controller tracking nodes |
+| Unified component layer alignment | Standby metric data masking |
+| Automatic lifecycle standby handlers | Room setup lockout safety protocol |
+| Self-contained executable package | Imperial unit conversion matrix |
+
 
 ---
 
