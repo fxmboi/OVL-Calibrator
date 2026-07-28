@@ -1,5 +1,5 @@
-#  OVL Calibrator (v1.0)
-### SteamVR Base Station 2D Alignment
+#  OVL Calibrator (v1.1)
+### SteamVR Base Station 2D Alignment & Blueprint Mapping Utility
 
 **OVL Calibrator** (Overlay Visual Link) is a lightweight, standalone 2D diagnostic utility built to help VR users perfectly align their HTC Vive or Valve Index Lighthouse base stations. By flattening your 3D room coordinates into an intuitive 2D bird's-eye blueprint grid, you can eliminate controller tracking blind spots with absolute geometric precision.
 
@@ -15,11 +15,14 @@
 
 ---
 
-##  How to Read the Metrics
+##  Live Metrics & Visualization Dashboard
 
-* **Active Base Stations:** Automatically identifies hardware configurations (Model 1.0 vs 2.0) and assigns **Station B** to the leftmost unit and **Station C** to the rightmost unit to match your room layout.
-* **Sightline Deviation:** Measures the horizontal error offset. A **0.0° Deviation** means the base station is aiming perfectly dead-center at the face of the opposite unit. 
-* **Calibration Goal:** Physically swivel your base stations until the laser sights cross directly into the center of the opposite node. When optimal overlapping coverage is reached, the dashboard updates to a solid green **ALIGNMENT OK** status checking banner!
+
+<p align="center">
+  <img src="active_map.jpg" alt="OVL Calibrator Interface Map Active Dashboard" width="750">
+</p>
+
+*This preview shows the main beta UI with all stats needed for alignment. (The Alignment OK isn't too accurate but all other stats are)*
 
 ---
 
@@ -27,9 +30,9 @@
 
 Because this software carries a strict non-derivative legal security framework, the source code scripts are private. You can download the pre-compiled standalone application directly from the official repository release terminal.
 
-1. Navigate to the [**Releases**](https://github.com/fxmboi/OVL-Calibrator/releases/tag/v1.0) module on the right side of this homepage.
-2. Download the compressed file container bundle: `OVL_v1.0.zip`.
-3. Extract the contents directly onto your Desktop workspace.
+1. Navigate directly to the public [Releases](https://github.com) module link.
+2. Download the newest release.
+3. Extract the contents directly onto your local Desktop workspace.
 4. Turn on your physical VR base stations and wake up **SteamVR**.
 5. Launch `ovl_calibrator.exe` and begin aligning!
 
