@@ -26,7 +26,8 @@
   <img src="active_map.jpg" alt="OVL Calibrator Interface Map Active Dashboard" width="750">
 </p>
 
-*This preview shows the main beta UI with all stats needed for alignment. (The Alignment OK isn't too accurate but all other stats are)*
+<p align="center">*This preview shows a more updated UI with more features and a new set of stats!*
+</p>
 
 ---
 
