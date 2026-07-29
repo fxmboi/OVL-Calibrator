@@ -31,6 +31,18 @@
 
 ---
 
+## (FAQ)
+
+### Q: How is OVL better than just replacing the lighthouse model with a calibration model?
+**A:** While manually swapping model files in SteamVR directories is a clever workaround, it is entirely static and lacks interactivity. OVL provides a dedicated, user-friendly graphical interface that lets you place and adjust your base stations on the fly without digging through local files or dealing with tedious manual overrides. 
+
+### Q: Does OVL work if I have modified my lighthouse model files?
+**A:** No, or at least not as intended. OVL does not rely on static asset replacements. Instead, it actively queries SteamVR to locate your base stations, parse their live tracking coordinates, and dynamically render visual aids (such as directional lines, cones, angles, and deviation metrics) in real time. 
+
+### Q: Why should I use OVL instead of manual configuration?
+**A:** OVL is built for ease of use and precision. It saves you from the friction of repetitive file-swapping and gives you an intuitive UI to instantly visualize your tracking setup, check alignment boundaries, and manage your base stations seamlessly.
+
+---
 ##  How to Download & Run
 
 Because this software carries a strict non-derivative legal security framework, the source code scripts are private. You can download the pre-compiled standalone application directly from the official repository release terminal.
