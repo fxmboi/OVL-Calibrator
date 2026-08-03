@@ -55,6 +55,17 @@ Because this software carries a strict non-derivative legal security framework, 
 
 ---
 
+##  Support the Project
+
+OVL Calibrator is open-source, lightweight, and completely free to use. If this utility successfully saved time with your Base Stations, consider supporting the project! 
+
+Your tips directly help me continue developing new software features for this tool, and every dollar goes straight toward funding the $100 Steam publishing fee so I can eventually launch OVL Calibrator on Steam for effortless one-click installations and automatic background updates. 
+
+Support the development branch and help get the app on Steam here:
+https://buymeacoffee.com/lucyovl
+
+---
+
 ##  Legal License
 Distributed under the **Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International (CC BY-NC-ND 4.0)** licensing framework. 
 * You are free to copy, share, and redistribute this pre-compiled tool in any medium or format.
